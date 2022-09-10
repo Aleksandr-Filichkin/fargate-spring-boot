@@ -41,7 +41,7 @@ variable "container_memory" {
   default = "512"
 }
 variable "container_image" {
-  default = "test"
+  default = "140729813405.dkr.ecr.eu-west-1.amazonaws.com/webflux-fargate-test"
 }
 variable "container_environment" {
   default = "test"
