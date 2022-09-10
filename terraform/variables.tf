@@ -51,7 +51,7 @@ variable "service_desired_count" {
 }
 
 variable "health_check_path" {
-  default = "/health"
+  default = "/actuator/health"
 }
 
 # Redirect traffic to target group
