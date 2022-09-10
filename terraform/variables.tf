@@ -56,5 +56,5 @@ variable "health_check_path" {
 
 # Redirect traffic to target group
 variable "alb_tls_cert_arn" {
-  default = "arn:aws:acm:eu-west-1:140729813405:certificate/516bff03-d1de-4252-8a24-fd47190a9aa8"
+  default = "arn:aws:acm:eu-west-1:140729813405:certificate/9451bd95-2f6a-408b-8126-611ebc0fe582"
 }
