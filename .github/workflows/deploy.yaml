@@ -43,7 +43,7 @@ jobs:
           cd ./terraform
           terraform init -input=false
           terraform plan -var-file="dev-terraform.tfvars"
-          terraform plan apply -var-file="dev-terraform.tfvars"
+          terraform apply -var-file="dev-terraform.tfvars" -auto-approve
 
 #      - name: Login to Amazon ECR
 #        id: login-ecr
